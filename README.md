@@ -3,7 +3,7 @@
 ##### To work with CMSSW_10_2_14 and head version, you do :
 ```
 cmsrel CMSSW_10_2_14
-cd CMSSW_10_2_14
+cd CMSSW_10_2_14/src
 cmsenv
 git clone https://github.com/ottolau/UpsilonToTauTauAnalysis.git
 scram b clean; scram b -j20
